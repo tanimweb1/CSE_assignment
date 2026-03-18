@@ -141,6 +141,24 @@ for(int i = 1; i<=n;i=i+2){
     printf("%d\n",i);
 }
     
+
+
+
+
+//multiplication table
+int n,multi;
+printf("enter the number : ");
+scanf("%d",&n);
+
+for(int i = 1; i<=10;i++){
+   // multi = n*i;
+printf("%d * %d = %d\n", n, i,n*i);
+}
+
+
+
+    
+
     
     
     return 0;
