@@ -159,6 +159,22 @@ printf("%d * %d = %d\n", n, i,n*i);
 
     
 
+//factorial
+int n,fact=1;
+printf("enter any positive number : ");
+scanf("%d",&n);
+
+for(int i = 1; i<=n;i++){
+  
+    fact = fact * i ;
+
+}
+
+printf("%d",fact);
+
+
+
+    
     
     
     return 0;
