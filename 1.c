@@ -174,6 +174,27 @@ printf("%d",fact);
 
 
 
+
+
+//product of digits of a number
+    int n,rem,sum=1,temp;
+scanf("%d",&n);
+
+temp = n;
+
+while(temp!=0){
+
+rem = temp%10;
+sum = sum*rem;
+temp = temp/10;
+
+}
+
+    printf("product is %d",sum);
+
+    
+
+
     
     
     
