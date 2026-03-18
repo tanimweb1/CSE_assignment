@@ -69,6 +69,33 @@ printf("Sum of digits is %d",sum);
 
 
 
+
+
+
+//plaindrome number
+    int n,rem,sum=0,temp;
+scanf("%d",&n);
+
+temp = n;
+
+while(temp!=0){
+
+rem = temp%10;
+sum = sum*10+ rem;
+temp = temp/10;
+
+}
+
+if(n==sum){
+    printf("%d is a Palindrome number\n",sum);
+}
+else{
+    printf("%d is Not a palindrome number\n",sum);
+}
+
+
+    
+
     
     
     return 0;
