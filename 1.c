@@ -50,20 +50,20 @@ for(int i = 0; i<=n;i++){
 
 
 // sum of digits 
-    int n, rem,sum=0;
+    int n, rem,sum=0,temp;
 scanf("%d",&n);
 
-while(n!=0){
+temp = n;
 
-    rem = n%10;
+while(temp!=0){
+
+    rem = temp%10;
     sum = sum + rem;
-    n = n/10;
+    temp = temp/10;
 
 }
 
 printf("Sum of digits is %d",sum);
-
-
 
 
 
