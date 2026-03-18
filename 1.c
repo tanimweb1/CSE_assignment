@@ -219,6 +219,21 @@ temp = temp/10;
 
 
     
+
+
+
+//number of digits
+int n,count=0;
+scanf("%d",&n);
+
+while(n!=0){
+n= n/10 ;
+++count;
+}
+printf("Number of digits is %d",count);
+
+
+
     
     
     
