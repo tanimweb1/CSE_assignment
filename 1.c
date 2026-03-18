@@ -195,6 +195,30 @@ temp = temp/10;
     
 
 
+
+//armstrong number
+    int n,rem,sum=0,temp;
+scanf("%d",&n);
+
+temp = n;
+
+while(temp!=0){
+
+rem = temp%10;
+sum = sum+rem*rem*rem;
+temp = temp/10;
+
+}
+
+  if(n==sum){
+    printf("armstrong number\n");
+  }
+  else{
+    printf("Not a armstrong number\n");
+  }
+
+
+    
     
     
     
