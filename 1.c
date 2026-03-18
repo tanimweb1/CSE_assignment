@@ -96,6 +96,28 @@ else{
 
     
 
+
+
+
+//reverse a number
+    int n,rem,sum=0,temp;
+scanf("%d",&n);
+
+temp = n;
+
+while(temp!=0){
+
+rem = temp%10;
+sum = sum*10+ rem;
+temp = temp/10;
+
+}
+
+    printf("reverse is %d",sum);
+
+    
+
+    
     
     
     return 0;
