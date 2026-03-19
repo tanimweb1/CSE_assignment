@@ -275,6 +275,27 @@ printf("Sum of First and last digit is %d",sum );
 
 
     
+
+
+//power of a number using loop
+int n,m,val=1;
+printf("Enter the number: ");
+scanf("%d",&n);
+printf("Enter the power: ");
+scanf("%d",&m);
+
+for(int i = 1;i<=m;i++){
+    val = n*val;
+  
+}
+
+printf("%d",val);
+
+
+
+
+
+
     
     
     return 0;
