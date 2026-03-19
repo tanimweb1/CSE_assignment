@@ -234,6 +234,25 @@ printf("Number of digits is %d",count);
 
 
 
+
+
+// first digit and last digit
+
+int n,last,fast;
+printf("Enter the number: ");
+scanf("%d",&n);
+
+last = n%10;
+
+while(n>9){
+    n = n/10;
+}
+
+fast = n;
+
+printf("First and last digit is %d and %d",fast,last );
+
+    
     
     
     
